@@ -1,0 +1,40 @@
+      .small-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 15%;
+        box-shadow: 3px 3px 5px white;
+        margin: 7px;
+        margin-top: 3cm;  
+        boarder: 5px black;
+      }
+      
+      .body {
+        background-image: url("http://www.hcn.com/images/Metal_Background.jpg")
+      }
+      
+.p-text {
+  font-size: 20px;
+  font-color: black;
+  margin: 7px;
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+.h1-text {
+  font-size: 24px;
+  font-color: white;
+  margin: 7px;
+}
+.navbar-default {
+    background-color: #525c5c;
+    border-color: black;
+}
+.h2-text {
+  font-size: 26px;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  boarder-radius: 30%;
+}
+
