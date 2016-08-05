@@ -4,6 +4,7 @@ body {
   background-color: #d9d9d9;
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
+  position: relative;
 }
 
 h1, h2, h3 {
@@ -19,7 +20,9 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: lightgrey;
+  opacity: 0.5;
+  transition-delay: 0.1s;
 }
 
 /* Custom class design */
@@ -29,15 +32,29 @@ a:hover {
   height: 120px;
   border-radius: 50%;
   border: 2px, 2px, 3px, #a8a3a8;
-  box-shadow: 2px 2px 2px silver;
+  box-shadow: 2px 2px 2px black;
 }
 
 .card {
   background-color: white;
+  border-radius: 6px;
   text-decoration: none;
+  box-shadow: 2px 2px 3px black;
   width: 500px;
+  height: 200px;
   margin: 10px auto;
   padding: 20px 20px;
+}
+
+.card-small {
+  background-color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 2px 2px 3px black;
+  width: 800px;
+  height: 50px;
+  margin: 10px auto;
+  padding: 10px 10px;
 }
 
 .thumbnail {
@@ -45,7 +62,7 @@ a:hover {
   height: 80px;
   border: solid 1px silver;
   border-radius: 5px;
-  box-shadow: 2px 2px 2px silver;
+  box-shadow: 2px 2px 2px black;
   transition-delay: 1s;
 }
 
@@ -59,18 +76,25 @@ a:hover {
   text-align: center;
 }
 
-.transition {
-  transition-delay: 0.2s;
+.wrapper-white {
+  background-size: cover;
+  background-color: white;
+  padding: 2em 0;
+}
+
+.wrapper-grey {
+  background-size: cover;
+  background-color: grey;
+  padding: 2em 0;
 }
 
 /* Specific adjustments */
 #skills table {
   width: 300px;
+  padding: 10px;
   margin: 10px auto;
 }
-#skills td {
-  text-align: center;
-}
+
 #remove-padding{
     padding-left: 0;
 }
