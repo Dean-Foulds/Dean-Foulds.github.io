@@ -1,40 +1,88 @@
-      .small-image {
-        width: 200px;
-        height: 200px;
-        border-radius: 15%;
-        box-shadow: 3px 3px 5px white;
-        margin: 7px;
-        margin-top: 3cm;  
-        boarder: 5px black;
-      }
-      
-      .body {
-        background-color: #E6E1E1;
-      }
-      
-.p-text {
+/*font-family: 'Roboto', sans-serif;
+*/
+body {
+  background-color: #d9d9d9;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
   font-size: 20px;
-  font-color: black;
-  margin: 7px;
-  margin-top: 20px;
-  margin-bottom: 10px;
 }
-.h1-text {
-  font-size: 24px;
-  font-color: white;
-  margin: 7px;
+
+a {
+  color: gray;
 }
-.navbar-default {
-    background-color: #525c5c;
-    border-color: black;
+
+a:hover {
+  color: blue;
 }
-.h2-text {
-  font-size: 26px;
+
+/* Custom class design */
+
+.img-round{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px, 2px, 3px, #a8a3a8;
+  box-shadow: 2px 2px 2px silver;
+}
+
+.card {
+  background-color: white;
+  text-decoration: none;
+  width: 500px;
+  margin: 10px auto;
+  padding: 20px 20px;
 }
 
 .thumbnail {
-  width: 200px;
-  height: 200px;
-  boarder-radius: 30%;
+  width: 80px;
+  height: 80px;
+  border: solid 1px silver;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px silver;
+  transition-delay: 1s;
 }
+
+.list-inline > li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.transition {
+  transition-delay: 0.2s;
+}
+
+/* Specific adjustments */
+#skills table {
+  width: 300px;
+  margin: 10px auto;
+}
+#skills td {
+  text-align: center;
+}
+#remove-padding{
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
