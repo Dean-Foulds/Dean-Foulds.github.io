@@ -1,5 +1,9 @@
 /*font-family: 'Roboto', sans-serif;
 */
+@import url("avatar.css");
+@import url("card.css");
+@import url("wrapper.css");
+
 body {
   background-color: #d9d9d9;
   font-family: 'Roboto', sans-serif;
@@ -17,75 +21,26 @@ h2 {
 
 a {
   color: gray;
+  text-decoration: none;
 }
 
 a:hover {
   color: lightgrey;
+  text-decoration: none;
   opacity: 0.5;
   transition-delay: 0.1s;
 }
 
 /* Custom class design */
 
-.img-round{
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 2px, 2px, 3px, #a8a3a8;
-  box-shadow: 2px 2px 2px black;
-}
-
-.card {
-  background-color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  box-shadow: 2px 2px 3px black;
-  width: 500px;
-  height: 200px;
-  margin: 10px auto;
-  padding: 20px 20px;
-}
-
-.card-small {
-  background-color: white;
-  border-radius: 6px;
-  text-decoration: none;
-  box-shadow: 2px 2px 3px black;
-  width: 800px;
-  height: 50px;
-  margin: 10px auto;
-  padding: 10px 10px;
-}
-
-.thumbnail {
-  width: 80px;
-  height: 80px;
-  border: solid 1px silver;
-  border-radius: 5px;
-  box-shadow: 2px 2px 2px black;
-  transition-delay: 1s;
-}
-
-.list-inline > li {
+/*.list-inline > li {
   display: inline-block;
   text-decoration: none;
   padding: 0px 20px;
-}
+}*/
 
 .text-center {
   text-align: center;
-}
-
-.wrapper-white {
-  background-size: cover;
-  background-color: white;
-  padding: 2em 0;
-}
-
-.wrapper-grey {
-  background-size: cover;
-  background-color: grey;
-  padding: 2em 0;
 }
 
 /* Specific adjustments */
@@ -99,7 +54,9 @@ a:hover {
     padding-left: 0;
 }
 
-
+#text-red {
+  color: #D33333
+}
 
 
 
