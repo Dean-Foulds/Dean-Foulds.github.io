@@ -25,12 +25,12 @@ p {
 }
 
 a {
-  color: gray;
+  color: #313193;
   text-decoration: none;
 }
 
 a:hover {
-  color: lightgrey;
+  color: #313193;
   text-decoration: none;
   opacity: 0.5;
   transition-delay: 0.1s;
