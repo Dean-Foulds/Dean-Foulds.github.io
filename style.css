@@ -1,0 +1,74 @@
+/*font-family: 'Roboto', sans-serif;
+*/
+@import url("avatar.css");
+@import url("card.css");
+@import url("wrapper.css");
+
+body {
+  background-color: #d9d9d9;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 20px
+}
+
+a {
+  color: #3D3898;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3D3898;
+  text-decoration: none;
+  opacity: 0.5;
+  transition-delay: 0.1s;
+}
+
+/* Custom class design */
+
+/*.list-inline > li {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 20px;
+}*/
+
+.text-center {
+  text-align: center;
+}
+
+/* Specific adjustments */
+#skills table {
+  width: 300px;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+#remove-padding{
+    padding-left: 0;
+}
+
+#text-red {
+  color: #D33333
+}
+
+
+
+
+
+
+
+
+
+

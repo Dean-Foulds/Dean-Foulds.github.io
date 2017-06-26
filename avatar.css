@@ -1,0 +1,22 @@
+.img-round{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px, 2px, 3px, #a8a3a8;
+  box-shadow: 2px 2px 2px black;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  border: solid 1px silver;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px black;
+  transition-delay: 1s;
+}
+
+#img-lewagon {
+  width: 30px;
+  height: 30px;
+}
+

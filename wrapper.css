@@ -1,0 +1,13 @@
+.wrapper-white {
+  background-size: cover;
+  background-color: white;
+  padding: 2em 0;
+}
+
+.wrapper-grey {
+  background-size: cover;
+  background-color: grey;
+  padding: 2em 0;
+  padding-left: 30px;
+  padding-right: 30px;
+}
